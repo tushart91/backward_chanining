@@ -44,7 +44,8 @@ def fol_bc_or(KB, goal, theta, count):
         if rule.rhs not in count.keys():
             count[rule.rhs] = 1
         elif count[rule.rhs] >= LIMIT: 
-            pprint("Limit Exceeded: " + str(rule.rhs))
+            if DEBUG:
+                pprint("Limit Exceeded: " + str(rule.rhs))
             return
         else:
             count[rule.rhs] += 1

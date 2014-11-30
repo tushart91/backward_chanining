@@ -3,9 +3,11 @@ backward_chanining
 Backward Chaining for First Order Logic
 
 ###Format of input for solver:
+```
 Query
 No of lines in KB
 Statement(s) to be put in KB (in Horn form)
+```
 
 ###Example:
 ```

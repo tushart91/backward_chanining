@@ -1,6 +1,9 @@
 backward_chanining
 ==================
-Backward Chaining for First Order Logic
+```
+Backward Chaining for First Order Logic.
+Only AND,=> operator supported.
+```
 
 ###Format of input for solver:
 ```

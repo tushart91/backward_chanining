@@ -8,7 +8,7 @@ No of lines in KB
 Statement(s) to be put in KB (in Horn form)
 
 ###Example:
-'''
+```
 Diagnosis(John,Infected)
 6
 HasSymptom(x,Diarrhea)=>LostWeight(x)
@@ -17,4 +17,4 @@ HasTraveled(x,Tiberia)&HasFever(x)=>Diagnosis(x,LikelyInfected)
 HasTraveled(John,Tiberia)
 HasFever(John)
 HasSymptom(John,Diarrhea)
-'''
+```

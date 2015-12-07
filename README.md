@@ -27,6 +27,6 @@ HasSymptom(John,Diarrhea)
 ###Output
 ```
 The output is either TRUE or FALSE in the output.txt file.
-TRUE if a substitution can be made and the query can be infered through substituion and FALSE if NOT.
+TRUE if a substitution can be made and the query can be infered through substitution and FALSE if NOT.
 To see the substitution change DEBUG = False to True in solver.py
 ```
